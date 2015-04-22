@@ -7,11 +7,11 @@
 </head>
 <body>
 <div id="container">
-  <div id="header"> <a href="http://all-free-download.com/free-website-templates/">Keep it Simple</a> </div>
-  <div id="menu"> <a href="http://all-free-download.com/free-website-templates/">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp; 
-                  <a href="http://all-free-download.com/free-website-templates/">ABOUT US</a> &nbsp; &nbsp; &nbsp; &nbsp; 
-                  <a href="/login.php">LOGIN</a> &nbsp; &nbsp; &nbsp; &nbsp;
-                  <a href="/signup.php">SIGN UP</a>
+    <div id="header"><h1>EasySchedule</h1></div>
+  <div id="menu"> <a href="index.php">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp; 
+                  <a href="aboutus">ABOUT US</a> &nbsp; &nbsp; &nbsp; &nbsp; 
+                  <a href="login.php">LOGIN</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                  <a href="signup.php">SIGN UP</a>
   </div>
   <div id="sidebar">
     <h1>Welcome</h1>
