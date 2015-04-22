@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 $regerror=''; // variable to store error message
 if(isset($_POST['regsubmit'])){
 	if(empty($_POST['email']) || empty($_POST['password']) || empty($_POST['firstname']) || empty($_POST['lastname']) || empty($_POST['major'])){

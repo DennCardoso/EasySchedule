@@ -11,6 +11,7 @@
   <div id="menu"> <a href="http://all-free-download.com/free-website-templates/">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp; 
                   <a href="http://all-free-download.com/free-website-templates/">ABOUT US</a> &nbsp; &nbsp; &nbsp; &nbsp; 
                   <a href="/login.php">LOGIN</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                  <a href="/signup.php">SIGN UP</a>
   </div>
   <div id="sidebar">
     <h1>Welcome</h1>

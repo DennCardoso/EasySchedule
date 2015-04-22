@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 include('changepw.php');
 if(!isset($_SESSION['login_email'])){ // not supposed to view page if not logged in
 	header("location: index.php");

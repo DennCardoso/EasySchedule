@@ -19,7 +19,7 @@ header("location: search.php");
   <div id="header"> <a href="http://all-free-download.com/free-website-templates/">Keep it Simple</a> </div>
   <div id="menu"> <a href="http://all-free-download.com/free-website-templates/">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp; 
                   <a href="http://all-free-download.com/free-website-templates/">ABOUT US</a> &nbsp; &nbsp; &nbsp; &nbsp; 
-                  <a href="/login.php">LOGIN</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                  <a href="/Easyschedule/login.php">LOGIN</a> &nbsp; &nbsp; &nbsp; &nbsp;
                   <a href="/signup.php">SIGN UP</a>
   </div>
   <div id="sidebar">
