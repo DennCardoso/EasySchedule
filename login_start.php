@@ -1,6 +1,6 @@
 <?php
-session_start();
-//include('login.php'); // includes login script
+//session_start();
+include('login.php'); // includes login script
 include('register.php'); // includes registration script
 if(isset($_SESSION['login_email'])){
 header("location: search.php");
@@ -19,36 +19,21 @@ header("location: search.php");
     <div id="header"><h1>EasySchedule</h1></div>
   <div id="menu"> <a href="index.php">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp; 
                   <a href="aboutus.php">ABOUT US</a> &nbsp; &nbsp; &nbsp; &nbsp; 
-                  <a href="login_start.php">LOGIN</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                  <a href="login.php">LOGIN</a> &nbsp; &nbsp; &nbsp; &nbsp;
                   <a href="signup.php">SIGN UP</a>
   </div>
   <div id="sidebar">
-    <h1>Register</h1>
+    <h1>Welcome</h1>
   </div>
   <div id="main">
-    <div id="regbox"><h2>Register</h2>
-	<form action="" method="post">
-            <table>
-                <tr>
-                    <td><input type="text" placeholder="E-mail" name="email"><br></td>
-                </tr>
-                <tr>
-                    <td><input type="password" placeholder="Password" name="password"><br></td>
-                </tr>
-                <tr>
-                    <td><input type="text" placeholder="First Name" name="firstname"><br></td>
-                </tr>
-                <tr>
-                    <td><input type="text" placeholder="Last Name" name="lastname"><br></td>
-                </tr>
-                <tr>
-                    <td><input type="text" placeholder="Major" name="major"><br></td>
-                </tr>
-            </table>
-                <input type="submit" value="Register" name="regsubmit">
-        </form>
-	<span><?php echo $regerror; ?></span>
-    </div>
+      <div id="loginbox"><h2>Login</h2>
+	        <form action="" method="post">
+	        <input type="text" placeholder="E-mail" name="email"><br>
+	        <input type="password" placeholder="Password" name="password"><br>
+	        <input type="submit" value="Log-in" name="loginsubmit">
+	        </form>
+	        <span><?php echo $loginerror; ?></span>
+      </div>
   </div>
   <div id="footer"> &copy;2007 Keep it Simple &nbsp;<span class="separator">|</span>&nbsp; Design by <a href="http://www.realitysoftware.ca">Reality Software</a> </div>
 </div>
