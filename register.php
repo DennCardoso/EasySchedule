@@ -6,8 +6,9 @@ if(isset($_POST['regsubmit'])){
 		$regerror = "One or more fields are empty";
 	}
 	else{
-		$connection = mysql_connect("engr-cpanel-mysql.engr.illinois.edu","ezschedu_admin","qwerty"); // connect to our database
-		$db = mysql_select_db("ezschedu_main", $connection);
+		//$connection = mysql_connect("engr-cpanel-mysql.engr.illinois.edu","ezschedu_admin","qwerty"); // connect to our database
+                $connection = mysql_connect("127.0.0.1","root");	
+                $db = mysql_select_db("ezschedu_main", $connection);
 		
 		$email = $_POST['email'];
 		// protect from SQL injections
