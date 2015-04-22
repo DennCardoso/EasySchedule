@@ -16,7 +16,7 @@ if(isset($_POST['changepwsubmit'])){
 		$newpw1 = $_POST['newpw1'];
 		$newpw2 = $_POST['newpw2'];
 		if($newpw1 == $newpw2){
-			$connection = mysql_connect("engr-cpanel-mysql.engr.illinois.edu","ezschedu_admin","qwerty"); // connect to our database
+			$connection = mysql_connect("127.0.0.1","root"); // connect to our database
 			$db = mysql_select_db("ezschedu_main", $connection);
 		
 			$oldpw = trim($oldpw);

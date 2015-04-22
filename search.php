@@ -279,8 +279,8 @@ if(!isset($_SESSION['login_email'])){ // not supposed to view page if not logged
 </html>
 
 <?php
-include('add.php');
-include('drop.php');
+//include('add.php');
+//include('drop.php');
 include('searchq.php');
 
 ?>

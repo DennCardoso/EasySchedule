@@ -8,10 +8,12 @@
 <body>
 <div id="container">
     <div id="header"><h1>EasySchedule</h1></div>
-  <div id="menu"> <a href="index.php">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp; 
+    <div id="menu"> <a href="index_logged.php">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp; 
                   <a href="aboutus.php">ABOUT US</a> &nbsp; &nbsp; &nbsp; &nbsp; 
-                  <a href="login_start.php">LOGIN</a> &nbsp; &nbsp; &nbsp; &nbsp;
-                  <a href="signup.php">SIGN UP</a>
+                  <!--<a href="login_start.php">LOGIN</a> &nbsp; &nbsp; &nbsp; &nbsp;-->
+                  <!--<a href="signup.php">SIGN UP</a>-->
+                  <a href="myschedule.php">MY SCHEDULE</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                  <a href="myaccount.php">MY ACCOUNT</a>
   </div>
   <div id="sidebar">
     <h1>Account Management</h1>
@@ -33,9 +35,9 @@
 </style>-->
 </head>
 <body>
-<h1>Welcome!</h1>
+<!--<h1>Welcome!</h1>-->
 <div class="container">
-<h2>Account Management</h2>
+<!--<h2>Account Management</h2>-->
 <form action="logout.php" method="post">
 <input type="submit" value="Log-out" name="logoutsubmit">
 </form>

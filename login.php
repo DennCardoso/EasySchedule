@@ -21,8 +21,8 @@ if(isset($_POST['loginsubmit'])){
 		
 		$db = mysql_select_db("ezschedu_main", $connection);
 		$query = mysql_query("SELECT * FROM users WHERE email='$email' AND password='$password'", $connection);
-                echo "PEGUEI A QUERY";
-                echo $query;
+                /*echo "PEGUEI A QUERY";
+                echo $query;*/
 		
                 $rows = mysql_num_rows($query);
 		if($rows == 1){

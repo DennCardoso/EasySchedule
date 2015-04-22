@@ -3,7 +3,7 @@
 include('login.php'); // includes login script
 //include('register.php'); // includes registration script
 if(isset($_SESSION['login_email'])){
-header("location: search_page.php");
+header("location: myschedule.php");
 }
 ?>
 
@@ -19,7 +19,7 @@ header("location: search_page.php");
     <div id="header"><h1>EasySchedule</h1></div>
   <div id="menu"> <a href="index.php">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp; 
                   <a href="aboutus.php">ABOUT US</a> &nbsp; &nbsp; &nbsp; &nbsp; 
-                  <a href="login.php">LOGIN</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                  <a href="login_start.php">LOGIN</a> &nbsp; &nbsp; &nbsp; &nbsp;
                   <a href="signup.php">SIGN UP</a>
   </div>
   <div id="sidebar">
@@ -27,11 +27,19 @@ header("location: search_page.php");
   </div>
   <div id="main">
       <div id="loginbox"><h2>Login</h2>
-	        <form action="" method="post">
-	        <input type="text" placeholder="E-mail" name="email"><br>
-	        <input type="password" placeholder="Password" name="password"><br>
-	        <input type="submit" value="Log-in" name="loginsubmit">
-	        </form>
+	<form action="" method="post">
+            <table>
+                <tr>
+                    <td><input type="text" placeholder="E-mail" name="email"><td>
+                </tr>
+                <tr>
+                    <td><input type="password" placeholder="Password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Log-in" name="loginsubmit"></td>
+                </tr>
+            </table>
+	</form>
 	        <span><?php echo $loginerror; ?></span>
       </div>
   </div>

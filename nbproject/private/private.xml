@@ -3,8 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Thaines/Documents/NetBeansProjects/Easyschedule/register.php</file>
-            <file>file:/C:/Users/Thaines/Documents/NetBeansProjects/Easyschedule/index.php</file>
+            <file>file:/C:/xampp/htdocs/Easyschedule/login_start.php</file>
+            <file>file:/C:/xampp/htdocs/Easyschedule/register.php</file>
+            <file>file:/C:/xampp/htdocs/Easyschedule/search_page.php</file>
+            <file>file:/C:/xampp/htdocs/Easyschedule/aboutus.php</file>
+            <file>file:/C:/xampp/htdocs/Easyschedule/search.php</file>
+            <file>file:/C:/xampp/htdocs/Easyschedule/index.php</file>
+            <file>file:/C:/xampp/htdocs/Easyschedule/login.php</file>
+            <file>file:/C:/xampp/htdocs/Easyschedule/changepw.php</file>
         </group>
     </open-files>
 </project-private>
