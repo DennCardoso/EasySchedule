@@ -10,7 +10,7 @@ if(isset($_POST['loginsubmit'])){
 		$password = $_POST['password'];
 		
 		//$connection = mysql_connect("engr-cpanel-mysql.engr.illinois.edu","ezschedu_admin","qwerty"); // connect to our database
-		$connection = mysql_connect("127.0.0.1","pma");
+		$connection = mysql_connect("127.0.0.1","root");
 		// protect from SQL injections
 		$email = trim($email);
 		$password = trim($password);
@@ -21,11 +21,13 @@ if(isset($_POST['loginsubmit'])){
 		
 		$db = mysql_select_db("ezschedu_main", $connection);
 		$query = mysql_query("SELECT * FROM users WHERE email='$email' AND password='$password'", $connection);
+                echo "PEGUEI A QUERY";
+                echo $query;
 		
                 $rows = mysql_num_rows($query);
 		if($rows == 1){
 			$_SESSION['login_email'] = $email; // start the session
-			header("location: search.php"); // redirect to actual content
+			header("location: search_page.php"); // redirect to actual content
 		}
 		else{
 			$loginerror = "Invalid e-mail or password";

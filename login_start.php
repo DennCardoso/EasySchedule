@@ -1,9 +1,9 @@
 <?php
 //session_start();
 include('login.php'); // includes login script
-include('register.php'); // includes registration script
+//include('register.php'); // includes registration script
 if(isset($_SESSION['login_email'])){
-header("location: search.php");
+header("location: search_page.php");
 }
 ?>
 

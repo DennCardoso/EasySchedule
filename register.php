@@ -43,7 +43,7 @@ if(isset($_POST['regsubmit'])){
 		
 			$query = mysql_query("INSERT INTO Users (email, password, firstname, lastname, major) VALUES ('$email','$password','$firstname','$lastname','$major')", $connection);
 			$_SESSION['login_email'] = $email; // start the session
-			header("location: search.php"); // redirect to actual content
+			header("location: search_page.php"); // redirect to actual content
 		}
 		mysql_close($connection); // close the connection to our database
 	}
