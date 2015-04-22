@@ -9,7 +9,7 @@
 <div id="container">
     <div id="header"><h1>EasySchedule</h1></div>
   <div id="menu"> <a href="index.php">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp; 
-                  <a href="aboutus">ABOUT US</a> &nbsp; &nbsp; &nbsp; &nbsp; 
+                  <a href="aboutus.php">ABOUT US</a> &nbsp; &nbsp; &nbsp; &nbsp; 
                   <a href="login.php">LOGIN</a> &nbsp; &nbsp; &nbsp; &nbsp;
                   <a href="signup.php">SIGN UP</a>
   </div>
